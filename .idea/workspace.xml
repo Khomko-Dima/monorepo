@@ -1,10 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7318c2be-046c-4afe-88a4-e3abde4b393a" name="Changes" comment="">
+    <list default="true" id="7318c2be-046c-4afe-88a4-e3abde4b393a" name="Changes" comment="add: custom lint">
+      <change afterPath="$PROJECT_DIR$/packages/eslint-config-custom/.prettierrc" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/docs/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/apps/docs/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/docs/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/apps/docs/src/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/docs/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/apps/docs/src/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/docs/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/apps/docs/tsconfig.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/test/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/apps/test/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/test/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/apps/test/src/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/test/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/apps/test/src/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/test/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/apps/test/tsconfig.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/packages/eslint-config-custom/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/eslint-config-custom/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/eslint-config-custom/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/eslint-config-custom/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/tsconfig/react-app.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/tsconfig/react-app.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/packages/ui/.eslintrc.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/ui/.eslintrc.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/ui/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/ui/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/ui/src/Link.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/ui/src/Link.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/ui/src/components/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/ui/src/components/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/ui/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/ui/src/index.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,30 +33,38 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="ProjectErrors" />
+  </component>
   <component name="ProjectId" id="2CDD4IaactfsKqUQhfqAOywO2jV" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "js.linters.configure.manually.selectedeslint": "true",
-    "last_opened_file_path": "/home/user/Projects/monorepo/packages/ui/.eslintrc.js",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.standard": "true",
-    "node.js.selected.package.eslint": "/home/user/Projects/monorepo/node_modules/eslint",
-    "node.js.selected.package.standard": "",
-    "nodejs_interpreter_path": "/home/user/.nvm/versions/node/v16.15.1/bin/node",
-    "nodejs_package_manager_path": "npm",
-    "prettierjs.PrettierConfiguration.Package": "/home/user/Projects/monorepo/node_modules/prettier",
-    "settings.editor.selected.configurable": "settings.javascript.linters.eslint",
-    "ts.external.directory.path": "/home/user/Projects/monorepo/node_modules/typescript/lib",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;js.linters.configure.manually.selectedeslint&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/user/Projects/monorepo/apps/test&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.standard&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;/home/user/Projects/monorepo/node_modules/eslint&quot;,
+    &quot;node.js.selected.package.standard&quot;: &quot;&quot;,
+    &quot;nodejs_interpreter_path&quot;: &quot;/home/user/.nvm/versions/node/v16.15.1/bin/node&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;prettierjs.PrettierConfiguration.Package&quot;: &quot;/home/user/Projects/monorepo/node_modules/prettier&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;actions.on.save&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;/home/user/Projects/monorepo/node_modules/typescript/lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/apps/test" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -50,6 +74,7 @@
       <option name="presentableId" value="Default" />
       <updated>1658328069340</updated>
       <workItem from="1658328070488" duration="1620000" />
+      <workItem from="1659449185995" duration="93000" />
     </task>
     <servers />
   </component>
@@ -66,6 +91,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="add: custom lint" />
+    <option name="LAST_COMMIT_MESSAGE" value="add: custom lint" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
